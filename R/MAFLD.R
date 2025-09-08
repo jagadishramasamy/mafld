@@ -91,4 +91,4 @@ MAFLD <- function(x) {case_when(CAP >= 272 &
                                    (HOMAIR >=2.5  & WC > 80|SBP >= 130|DBP >= 85 |  HDL < 50  |TG >= 100|FPG >=100 |HbA1C >=5.7|HSCRP >2))~'Yes',
                                 (BMI < 25 & Race=="Caucasians"  & Gender =="Female" &
                                    (HSCRP >2 & WC > 80|SBP >= 130|DBP >= 85 |  HDL < 50  |TG >= 100|FPG >=100 |HbA1C >=5.7|HOMAIR >=2.5))~'Yes',
-                                TRUE ~ 'No'))}
+                                TRUE ~ 'No')}
