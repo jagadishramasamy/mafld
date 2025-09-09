@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# MAFLD
+# MAFLD (Dignosis of metabolic associated fatty liver disease)
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -13,7 +13,7 @@ Liver Disease (MAFLD). The new definition takes hepatic steatosis
 index) as a major criterion. In addition, race, gender, body mass index
 (BMI), waist circumference (WC), fasting plasma glucose (FPG), systolic
 blood pressure (SBP), diastolic blood pressure (DBP), triglycerides
-(TG), high-density lipoprotein cholesterol (HDLC), homeostatic model
+(TG), high-density lipoprotein cholesterol (HDL), homeostatic model
 assessment of insulin resistance (HOMAIR), high sensitive c-reactive
 protein (HsCRP) for the diagnosis of MAFLD. Each parameter has to be
 interpreted based on the proposed cut-offs, making the diagnosis
