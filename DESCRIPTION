@@ -12,7 +12,8 @@ URL: https://github.com/jagadishramasamy/mafld.git
 BugReports: https://github.com/jagadishramasamy/mafld/issues
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 Imports: 
     dplyr
 Depends: 
