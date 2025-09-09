@@ -4,7 +4,7 @@
 #' \describe{
 #'   \item{CAP}{Controlled Attenuation Parameter, in dB/m}
 #'   \item{BMI}{Body mass index, in kg/m2}
-#'   \item{Race}
+#'   \item{Race} {either Caucasians or Asians}
 #'   \item{Gender}{Gender in Male or Female}
 #'   \item{WC}{Waist Circumference in cm}
 #'   \item{FPG}{Fasting plasma glucose in mg/dL}

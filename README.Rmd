@@ -1,0 +1,73 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# MAFLD
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The latest guidelines proposed by International Expert Consensus are used widely for the clinical diagnosis of Metabolic Associated Fatty Liver Disease (MAFLD). The new definition takes hepatic steatosis (determined by elastography or histology or biomarker-based fatty liver index) as a major criterion. In addition, race, gender, body mass index (BMI), waist circumference (WC), fasting plasma glucose (FPG), systolic blood pressure (SBP), diastolic blood pressure (DBP), triglycerides (TG), high-density lipoprotein cholesterol (HDLC), homeostatic model assessment of insulin resistance (HOMAIR), high sensitive c-reactive protein (HsCRP) for the diagnosis of MAFLD. Each parameter has to be interpreted based on the proposed cut-offs, making the diagnosis slightly complex and error-prone. This package is developed by incorporating the latest international expert consensus guidelines, and it will aid in the easy and quick diagnosis of MAFLD based on FibroScan in busy healthcare settings and also for research purposes. 
+
+The new definition for MAFLD as per the International Consensus Statement is described by Eslam M et al (2020). <doi:10.1016/j.jhep.2020.03.039>.
+
+
+## Installation
+You can install this package by the following function
+
+``` r
+install.packages("MAFLD")
+devtools::install_github("jagadishramasamy/mafld")
+```
+
+## Example
+
+```{r example}
+library(MAFLD)
+```
+```
+MAFLD(x)
+
+x is the dataframe containing all the parameters required to dignose metabolic syndrome.
+```
+
+## Description of the dataframe (x)
+
+Use the exact column names as specified below
+
+CAP (Controlled Attenuation Parameter, in dB/m)
+
+BMI (Body mass index, in kg/m2)
+
+Race (Caucasian or Asians)
+
+Gender (as Male or Female}
+
+WC (Waist Circumference in cm)
+
+FPG (Fasting plasma glucose in mg/dL)
+
+HbA1c (Glycated Hemoglobin, in %)
+
+SBP (Systolic BP in mm Hg)
+
+DBP (Diastolic BP in mm Hg)
+
+HDL (High Density Lipoprotein Cholesterol in mg/dL)
+
+TG (Triglycerides in mg/dL)
+
+HOMAIR (Homeostatis Model Assessment of Inuslin Resistance)
+
+HSCRP (High Sensitive C reative Protein in mg/L)
