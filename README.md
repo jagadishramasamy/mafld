@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# MAFLD (Dignosis of metabolic associated fatty liver disease)
+# MAFLD (Diagnosis of metabolic associated fatty liver disease)
 
 <!-- badges: start -->
 <!-- badges: end -->
