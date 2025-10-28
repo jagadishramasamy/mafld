@@ -12,7 +12,16 @@
 #' MAFLD(x)
 
 
-MAFLD <- function(x){case_when(x$CAP >= 272 &
+MAFLD <- function(x){
+  # --- Compute Fatty Liver Index ---
+  FLI <- (exp(0.953 * log(x$TG) + 0.139 * x$BMI + 0.718 * log(x$GGT) + 0.053 * x$WC - 15.745) /
+            (1 + exp(0.953 * log(x$TG) + 0.139 * x$BMI + 0.718 * log(x$GGT) + 0.053 * x$WC - 15.745))) * 100
+
+  # --- Define liver steatosis by CAP or FLI ---
+  Liver_steatosis <- (x$CAP >= 272 | FLI >= 60)
+
+  # --- Apply diagnostic rules ---
+  case_when(Liver_steatosis &
                                 (x$BMI >= 25 & x$Race=="Caucasians")~'Yes',
                                 (x$BMI >= 23 & x$Race=="Asians")~'Yes',
                                 (x$FPG >= 126 |x$HbA1C >= 6.5 ) ~'Yes',

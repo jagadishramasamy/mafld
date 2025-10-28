@@ -71,3 +71,5 @@ TG (Triglycerides in mg/dL)
 HOMAIR (Homeostatis Model Assessment of Inuslin Resistance)
 
 HSCRP (High Sensitive C reative Protein in mg/L)
+
+GGT (Gamma Glutamyl Transferase, IU/L)

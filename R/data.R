@@ -15,5 +15,6 @@
 #'   \item{TG}{Triglycerides in mg/dL}
 #'   \item{HOMAIR}{Homeostatis Model Assessment of Inuslin Resistance}
 #'   \item{HSCRP}{High Sensitive C reative Protein}
+#'   \item{GGT}{Gamma Glutamyl transferase, IU/L}
 #'}
 "x"

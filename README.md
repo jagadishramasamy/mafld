@@ -4,6 +4,7 @@
 # MAFLD (Diagnosis of metabolic associated fatty liver disease)
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 The latest guidelines proposed by International Expert Consensus are
@@ -19,8 +20,9 @@ protein (HsCRP) for the diagnosis of MAFLD. Each parameter has to be
 interpreted based on the proposed cut-offs, making the diagnosis
 slightly complex and error-prone. This package is developed by
 incorporating the latest international expert consensus guidelines, and
-it will aid in the easy and quick diagnosis of MAFLD based on FibroScan
-in busy healthcare settings and also for research purposes.
+it will aid in the easy and quick diagnosis of MAFLD based on
+FibroScan/Fatty Liver Index in busy healthcare settings and also for
+research purposes.
 
 The new definition for MAFLD as per the International Consensus
 Statement is described by Eslam M et al (2020).
@@ -74,3 +76,5 @@ TG (Triglycerides in mg/dL)
 HOMAIR (Homeostatis Model Assessment of Inuslin Resistance)
 
 HSCRP (High Sensitive C reative Protein in mg/L)
+
+GGT (Gamma Glutamyl Transferase, IU/L)
